@@ -26,7 +26,7 @@ val propertiesMap: Map<String, Any> = mapOf(
   "mod_id" to "faes_swift_scension_rider",
   "mod_license" to "MIT License",
   "mod_name" to "FaesSwiftScensionRider",
-  "mod_version" to "0.1.0-1.21.1",
+  "mod_version" to "0.1.1-1.21.1",
   "yarn_mappings" to "1.21.1+build.3:v2"
 )
 

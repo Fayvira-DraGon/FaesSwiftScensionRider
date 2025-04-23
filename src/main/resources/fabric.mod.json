@@ -16,7 +16,7 @@
   },
   "license": "${mod_license}",
   "icon": "assets/faes_swift_scension_rider/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "github.fayvira.fabric.faes_swift_scension_rider.FaesSwiftScensionRider"
@@ -30,6 +30,7 @@
     "minecraft": "${minecraft_version}",
     "java": "${java_version}",
     "fabric": ">=${fabric_api_version}",
-    "cobblemon": "${cobblemon_version}"
+    "cobblemon": "${cobblemon_version}",
+    "cobblemonrider1.5": "${cobblemon_rider_version}"
   }
 }
