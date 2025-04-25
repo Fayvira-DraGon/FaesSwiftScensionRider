@@ -30,6 +30,6 @@ public abstract class PokemonEntityMixinSquared extends TameableShoulderEntity i
   @TargetHandler(mixin = "dev.zanckor.cobblemonridingfabric.mixin.PokemonMixin", name = "flyingHandler")
   @ModifyConstant(method = "@MixinSquared:Handler", constant = @Constant(doubleValue = -0.3), remap = false)
   private double onFlyingHandler$negative(double value) {
-    return -1.0F * getFloat("up_speed");
+    return -1.0F * getFloat("down_speed");
   }
 }
