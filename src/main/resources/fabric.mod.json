@@ -14,12 +14,25 @@
     "homepage": "${mod_homepage}",
     "sources": "${mod_github}"
   },
+  "custom": {
+    "modmenu": {
+      "links": {
+      },
+      "update_checker": true
+    }
+  },
   "license": "${mod_license}",
   "icon": "assets/faes_swift_scension_rider/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       "github.fayvira.fabric.faes_swift_scension_rider.FaesSwiftScensionRider"
+    ],
+    "client": [
+      "github.fayvira.fabric.faes_swift_scension_rider.FaesSwiftScensionRiderClient"
+    ],
+    "modmenu": [
+      "github.fayvira.fabric.faes_swift_scension_rider.config.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -29,8 +42,8 @@
     "fabricloader": ">=${fabric_loader_version}",
     "minecraft": "${minecraft_version}",
     "java": "${java_version}",
-    "fabric": ">=${fabric_api_version}",
+    "fabric-api": ">=${fabric_api_version}",
     "cobblemon": "${cobblemon_version}",
-    "cobblemonrider1.5": "${cobblemon_rider_version}"
+    "cobblemonridingfabric": "${cobblemon_rider_version}"
   }
 }
