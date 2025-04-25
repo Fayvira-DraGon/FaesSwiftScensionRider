@@ -1,9 +1,9 @@
 {
   "faes_swift_scension_rider.config.option.overridden_tooltip": "Overridden by Server.",
 
-  "faes_swift_scension_rider.config.option.vertical_speed_boost": "Vertical Speed Boost",
-  "faes_swift_scension_rider.config.option.vertical_speed_boost.tooltip": "Increases vertical flying speed to match horizontal speeds.",
+  "faes_swift_scension_rider.config.option.down_speed": "Down Speed (Positive Only)",
+  "faes_swift_scension_rider.config.option.down_speed.tooltip": "Set the mounted pokemon downward flying speed.",
 
-  "faes_swift_scension_rider.config.option.vertical_sprinting": "Vertical Sprinting",
-  "faes_swift_scension_rider.config.option.vertical_sprinting.tooltip": "Allows vertical flying sprinting. Diving straight down while flying doesn't cost stamina."
+  "faes_swift_scension_rider.config.option.up_speed": "Up Speed (Positive Only)",
+  "faes_swift_scension_rider.config.option.up_speed.tooltip": "Set the mounted pokemon upward flying speed."
 }
